@@ -39,3 +39,34 @@ h2 {
 .achievements-section li, .interests-section li {
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width:436px){
+  .personal-info-container{
+    .achievements-section,
+    .interests-section{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width:450px) and (max-width: 768px) {
+  .personal-info-container {
+    padding: 20px;
+  }
+
+  .profile-details, .achievements-section, .interests-section {
+    margin-top: 15px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .achievements-section li, .interests-section li {
+    font-size: 14px;
+  }
+}
