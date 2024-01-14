@@ -1,0 +1,10 @@
+<nav class="navbar-container">
+  <div class="logo">Tudor-Vlad Muresan</div>
+  <div class="menu-icon" (click)="toggleMenu()">☰</div>
+  <ul [ngClass]="{'active': isMenuOpen}">
+    <li routerLink="/main" routerLinkActive="active" (click)="closeMenu()">Home</li>
+    <li routerLink="/personal-info" routerLinkActive="active" (click)="closeMenu()">Personal Info</li>
+    <li routerLink="/contact" routerLinkActive="active" (click)="closeMenu()">Contact</li>
+    <li routerLink="/subject" routerLinkActive="active" (click)="closeMenu()">Teaching Subject</li>
+  </ul>
+</nav>

@@ -1,0 +1,41 @@
+
+.personal-info-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  border: 2px solid #8B0000;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h2, h3 {
+  color: #FF493C;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.profile-details, .achievements-section, .interests-section {
+  margin-top: 20px;
+}
+
+.profile-details p {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.achievements-section, .interests-section {
+  color: #fff;
+}
+
+.achievements-section ul, .interests-section ul {
+  list-style-type: square;
+  padding: 10px;
+}
+
+.achievements-section li, .interests-section li {
+  margin-bottom: 10px;
+}

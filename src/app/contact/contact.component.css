@@ -1,0 +1,50 @@
+@import "~@smart-webcomponents-angular/card/styles/smart.base.css";
+@import "~@smart-webcomponents-angular/card/styles/smart.card.css";
+@import "~@smart-webcomponents-angular/card/styles/smart.common.css";
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.contact-container {
+  max-width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #8B0000;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2.contact-title {
+  color: #FF493C;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.card-item {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+
+.fa-facebook, 
+.fa-envelope,
+.fa-skype,
+.fa-whatsapp {
+  color:#fff;
+}
